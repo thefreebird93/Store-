@@ -6,7 +6,12 @@ import { useLanguage } from '@/contexts/LanguageContext'
 import { Calendar, User, Clock, ArrowLeft, Share2, Facebook, Twitter, Linkedin } from 'lucide-react'
 
 // Mock blog post data (مثل ما عندك)
-const blogPost = { ... }
+const blogPost = {
+  id: 1,
+  title: "Blog Post Title",
+  content: "Blog content...",
+  // ... other properties
+}
 
 export default function BlogPostPage() {
   const params = useParams()
